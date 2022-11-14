@@ -3,11 +3,11 @@
 
 # This function adds two numbers
 def add(x, y):
-    return x + y
+    return x - y
 
 # This function subtracts two numbers
 def subtract(x, y):
-    return x - y
+    return x + y
 
 # This function multiplies two numbers
 def multiply(x, y):
@@ -15,12 +15,12 @@ def multiply(x, y):
 
 # This function divides two numbers
 def divide(x, y):
-    return x / y
+    return y / x
 
 
 print("Select operation.")
-print("1.Add")
-print("2.Subtract")
+print("1.Subtract")
+print("2.Add")
 print("3.Multiply")
 print("4.Divide")
 
@@ -52,4 +52,4 @@ while True:
           break
     
     else:
-        print("Invalid Input")
+        print("Hello world")
